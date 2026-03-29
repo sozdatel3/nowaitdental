@@ -1,0 +1,9 @@
+# Disable caching for HTML files
+/*.html
+  Cache-Control: no-cache, no-store, must-revalidate
+
+/simple/*
+  Cache-Control: no-cache, no-store, must-revalidate
+
+/*
+  Cache-Control: public, max-age=0, must-revalidate

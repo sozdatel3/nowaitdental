@@ -1,0 +1,21 @@
+{
+  "name": "julia_dental_promo",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host",
+    "build": "vite build && node scripts/prerender.js",
+    "preview": "vite preview"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "vite": "^7.0.5",
+    "vite-plugin-html": "^3.2.2"
+  },
+  "dependencies": {
+    "embla-carousel": "^8.6.0",
+    "photoswipe": "^5.4.4"
+  }
+}
