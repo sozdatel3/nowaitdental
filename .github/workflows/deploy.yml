@@ -25,6 +25,8 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
+    env:
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: 'true'
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -40,6 +42,13 @@ jobs:
         env:
           # Force rebuild with unique hash
           BUILD_TIME: ${{ github.sha }}
+      - name: Verify dist output
+        run: |
+          test -f dist/index.html
+          test -f dist/images/hero.jpg
+          test -f dist/images/main_photo_compressed_11.webp
+          test -f dist/assets/index-BgaF65R2.js || ls -la dist/assets
+          echo "dist verification passed"
       - name: Setup Pages
         uses: actions/configure-pages@v5
       - name: Upload artifact
