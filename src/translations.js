@@ -20,10 +20,10 @@ export const translations = {
     plansIntro: "Your choice of dental solution will depend on immigration status, location and treatment needs. We carefully searched and selected several distinct plans for you which are suited for specific situations. Please review carefully and make an educated choice.",
     compareShortTitle: "🔍 Options availible on this site",
     compareShortList: [
-    "Ameritas Dental Plans",
-    "EWA/Corenroll: for U.S. citizens and permanent residents only; Delta Dental PPO 1500 + MetLife PPO Platinum.",
-    "Morgan White: no U.S. citizenship requirement; Delta Dental PPO no wait plan (covers implants) + Delta Dental immediate coverage PPO plus premier network + Guardian PPO (ages 50+). State restrictions applied - see below.",
-    "NCD Dental plans powered by MetLife"
+        "EWA/Corenroll: for U.S. citizens and permanent residents only; Delta Dental PPO 1500 + MetLife PPO Platinum.",
+        "Morgan White: no U.S. citizenship requirement; Delta Dental PPO no wait plan (covers implants) + Delta Dental immediate coverage PPO plus premier network + Guardian PPO (ages 50+). State restrictions applied - see below.",
+        "NCD Dental plans powered by MetLife no citizenship requirement",
+        "Ameritas Dental Plans no citizenship or SSN requirement",
     //   "NCD: two plan options, Elite and Complete, with broad state availability."
     ],
     planSelectionTitle: "How These Plans Were Selected",
@@ -471,20 +471,39 @@ Available in: AL, CA, DC, DE, FL, GA, NV, PA, TX.`,
             meetJulia: "👋 Давайте познакомимся",
             juliaIntro: "Привет, меня зовут Юлия Баринова, я независимый страховой консультант и брокер из Нью-Йорка с более чем 20-летним опытом в финансовых услугах - от инвестиционного консалтинга и маркетинга хедж-фондов до персонализированного страхового планирования.",
             juliaPassion: "Моя профессиональная миссия - помогать людям защитить себя, свои семьи и бизнес от разрушительных финансовых рисков - будь то серьёзная болезнь, потеря дохода, потребность в долгосрочном уходе или утрата близкого человека - обучая их и создавая умные, индивидуальные страховые стратегии. Мне также нравится находить инновационные решения, которые закрывают критические пробелы и помогают реально экономить на жизненно важных услугах, таких как стоматологическая помощь.",
-            clientStats: `Недавно наш проверенный партнёр-ассоциация Elevate Wellness обновил структуру планов: в MetLife появился <strong>12-месячный период ожидания</strong> для крупных услуг, а для регистрации теперь требуется <strong>гражданство США или статус постоянного резидента (Green Card)</strong>. (Delta Dental PPO без изменений.)<br><br>
-Из-за этих изменений, к сожалению, больше нет универсального решения, которое подходило бы всем.<br><br>
-<strong>🔹 Как мы помогаем сейчас</strong><br>
-Мы адаптировались и нашли альтернативные, ассоциированные варианты стоматологического покрытия, которые работают похожим образом. Сегодня мы предлагаем планы из <strong>трёх разных источников</strong> (включая Elevate Wellness). Каждый вариант рассчитан на разные потребности, сроки и критерии участия — и, хотя мы стараемся, помочь можно не в каждой ситуации.<br><br>
-<strong>🔹 Как мы работаем (пожалуйста, прочитайте)</strong><br>
-Мы не классические стоматологические брокеры, предлагающие десятки планов по разным штатам и компаниям. Основная часть нашей работы — страховое планирование по жизни, инвалидности и долгосрочному уходу, и к стоматологическому покрытию мы подходим так же тщательно — выбираем только те решения, которые клиенты и партнёры-стоматологи считают действительно практичными и эффективными: простые, понятные, комплексные и доступные.<br><br>
-Наш главный критерий — немедленный или почти немедленный доступ к крупным услугам, когда это возможно: лечение каналов • коронки • импланты. Этот сайт создан, чтобы вы могли спокойно сравнить варианты и зарегистрироваться в удобном темпе, с минимальным участием брокера. Регистрация максимально простая: по ссылкам, с мгновенными подтверждениями.<br><br>
-👉 Перед регистрацией настоятельно рекомендуем обсудить план со своим стоматологом или воспользоваться ссылкой поиска провайдеров, чтобы найти врача в сети.<br>
-⚠️ Важно: как брокеры мы не можем гарантировать, что конкретная процедура будет покрыта или оплачена. Окончательное решение принимает страховая компания. Попросите вашу клинику связаться со страховщиком для подтверждения льгот перед лечением и убедиться, что выставление счетов сделано корректно, чтобы избежать задержек в выплатах. Все детали по критериям участия и контакты поддержки находятся внутри каждой ссылки на план.<br><br>
-💙 Наша цель — помочь вам получить необходимое стоматологическое лечение без долгих ожиданий, лишних сложностей и с экономией денег.`,
             // Plans section
             planDiscussionTitle: "💬 Ваши проверенные стоматологи и хирурги рассказывают, почему они любят наши умные планы стоматологического страхования",
-            plansTitle: "🦷 PLEASE REVIEW YOUR OPTIONS",
-            plansIntro: "Your Choice on dental solution will depent on imigrationt status, location and treatment needs. We carefully search and selected for you several distinct plan which suted for specific situation, pls carefully rewiev and make an educated Choice.",
+            plansTitle: "🦷 ПОЖАЛУЙСТА, ИЗУЧИТЕ ВАШИ ВАРИАНТЫ",
+            plansIntro: "Выбор стоматологического решения зависит от иммиграционного статуса, места проживания и потребностей в лечении. Мы тщательно отобрали несколько разных планов для конкретных ситуаций. Пожалуйста, внимательно ознакомьтесь с вариантами и сделайте осознанный выбор.",
+            compareShortTitle: "🔍 Варианты на этом сайте",
+            compareShortList: [
+                "EWA/Corenroll: только для граждан США и постоянных резидентов; Delta Dental PPO 1500 + MetLife PPO Platinum.",
+                "Morgan White: без требования гражданства США; Delta Dental PPO без ожидания (включает импланты) + Delta Dental PPO Plus Premier + Guardian PPO (возраст 50+). Действуют ограничения по штатам.",
+                "Планы NCD Dental на базе сети MetLife без требования гражданства.",
+                "Планы Ameritas Dental без требования гражданства или SSN."
+            ],
+            planSelectionTitle: "Как были отобраны эти планы",
+            planSelectionNote: "Мы специализируемся на планах без периода ожидания. Именно эти варианты чаще всего оказывались наиболее разумными для наших клиентов и стоматологов по итогам многолетней практики. Если другой план подходит вам лучше, вы можете рассмотреть и другие доступные варианты.",
+
+            source1BlockTitle: "ELEVATE WELLNESS ASSOCIATION",
+            source1BlockSubtitle: "(Только для граждан США и владельцев Green Card)",
+            source1BlockIntro: "Национальное стоматологическое PPO-покрытие плюс доступ к Vision, Life, Critical Illness, Accident и дополнительным медицинским бенефитам.<br>Требуется членство в ассоциации: $5 в месяц.",
+            source1BlockCities: [],
+            source1DeltaTitle: "Delta Dental PPO 1500",
+            source1MetlifeTitle: "MetLife PPO Platinum",
+            source1GetPlanNote: "Ссылка на регистрацию через Источник 1 (EWA / Corenroll): brokerexchanges.com/jbarinova",
+            source1AfterEnrollTitle: "📋 После регистрации — что ожидать (планы CorEnroll / EWA)",
+            source1AfterEnrollCarrier: `Эти планы обслуживаются <strong>Delta Dental of Connecticut</strong> и <strong>MetLife</strong>. Независимо от того, где вы живёте, штат спонсора плана — Коннектикут. Это не влияет на покрытие или доступ к сети по всей стране.`,
+            source1AfterEnrollSteps: [
+                "После регистрации через CorEnroll вы сможете создать личный кабинет на <a href='https://corenroll.com' target='_blank' rel='noopener noreferrer'>corenroll.com</a> или в мобильном приложении CorEnroll, чтобы просматривать документы плана, изучать дополнительные бенефиты и связываться со своим представителем.",
+                "Покрытие начинается 1-го числа месяца, если вы зарегистрировались до 20-го числа предыдущего месяца.",
+                "Информация может появиться в системе страховой компании к середине месяца. Чтобы верификация прошла без проблем, первый визит лучше планировать после этого срока."
+            ],
+            source1AfterEnrollTracking: `Чтобы отслеживать заявки и EOB, создайте аккаунт в <strong>MetLife</strong> (<a href='https://metlife.com' target='_blank' rel='noopener noreferrer'>metlife.com</a>) или <strong>Delta Dental</strong> после активации полиса (обычно это происходит к 10-15 числу месяца).`,
+            source1AfterEnrollNote: `<strong>Важно:</strong> Мы не можем обсуждать ваши конкретные бенефиты с клиниками от вашего имени. Ниже указаны телефоны страховых компаний — по ним вам помогут напрямую по вопросам покрытия и заявок.
+<br>🔹 <strong>Delta Dental of Connecticut:</strong> 1-800-452-9310
+<br>🔹 <strong>MetLife Dental:</strong> 1-800-275-4638`,
+
             source1Title: "✅ ИСТОЧНИК 1 Elevate Wellness Association / Corenroll",
             source1Subtitle: "(Для граждан США и владельцев Green Card)",
             source1Desc: "Если вы гражданин США или обладатель Green Card, рекомендуем начать с наших проверенных планов через Elevate Wellness Association на платформе Corenroll.<br>Эти планы принимаются и рекомендуются сетью наших стоматологов в:<br>Нью-Йорке • Филадельфии • Майами • Сан-Франциско • Чикаго • и других городах<br>(Спросите нас о направлении к врачу в вашем регионе)",
@@ -543,33 +562,25 @@ Available in: AL, CA, DC, DE, FL, GA, NV, PA, TX.`,
 
             // Delta Dental section
             deltaTitle: "🔹 Delta Dental PPO 1500",
-            deltaSubTitle: "⭐ БЕЗ ПЕРИОДА ОЖИДАНИЯ — ИМПЛАНТЫ ВКЛЮЧЕНЫ",
+            deltaSubTitle: "$1,500 годовой максимум. Все 50 штатов. Без ожидания на major. Импланты включены. Нет исключения по отсутствующему зубу.",
             deltaFeatures: [
-                "Годовой лимит: $1,500",
-                "Перенос неиспользованного лимита на следующий год",
-                "Без периода ожидания",
-                "Покрытие отсутствующих зубов",
-                "Крупнейшая сеть по всей стране (во всех 50 штатах - <a href='https://www.deltadental.com/us/en/member/find-a-dentist.html' target='_blank' rel='noopener noreferrer'>найдите своего специалиста</a>)"
+                { text: "Покрытие", sub: [
+                    "100% Профилактика — чистки, осмотры, рентген, фторирование",
+                    "80% Базовые услуги — пломбы, удаления, лечение каналов",
+                    "50% Major — коронки, мосты, импланты, хирургия"
+                ]},
+                "Штаты: все 50 штатов США",
+                "Спонсор плана: Delta Dental of NJ & CT (национальное покрытие вне зависимости от места проживания)",
+                "Личный кабинет: DeltaDentalCT.com",
+                "Импланты включены с первого дня",
+                "Период ожидания: отсутствует",
+                "Исключение по отсутствующему зубу: отсутствует",
+                "Стоимость: примерно от $59/мес. для одного человека до $161/мес. для семьи"
             ],
-            deltaCoverage: [
-                "✅ 100% – Профилактика",
-                "✅ 80% – Базовые процедуры (пломбы, удаление, лечение каналов)",
-                "✅ 50% – Крупные процедуры (Импланты, коронки, мосты, хирургия, протезы)"
-            ],
-            deltaBenefit: [
-                "Годовой лимит: $1,500 (календарный год)",
-                "Carryover — часть неиспользованного лимита может переноситься"
-            ],
-            deltaPricing: [
-                "Ежемесячный платёж (включая $5 членский взнос ассоциации):",
-                "$59.50 – Индивидуально",
-                "$100.75 – Взрослый + дети",
-                "$108.25 – Взрослый + супруг(а)",
-                "$161.25 – Полная семья"
-            ],
-            juliaRecommendationDelta: 'РЕКОМЕНДАЦИЯ ЮЛИИ: Надёжный и доступный план для всей семьи. Поможет сохранить здоровье зубов по минимальной цене. <a href="/Delta-Dental-Plan Description.pdf" target="_blank" rel="noopener noreferrer" class="plan-summary-link">Полное описание плана 📄</a>',
+            juliaRecommendationDelta: `PDF: <a href="/Delta-Dental-Plan Description.pdf" target="_blank" rel="noopener noreferrer" class="plan-summary-link">Полное описание плана</a><br><br>Лучше всего подходит для немедленного покрытия практически любых стоматологических потребностей, включая импланты. Особенно хороший выбор, если ваш стоматолог в сети и годового лимита $1,500 достаточно для ожидаемого лечения.`,
 
             // Source 2 & 3 + Compare (new)
+            ameritasTitle: "ДРУГИЕ ВАРИАНТЫ",
             ameritasIntro: `Мы работаем над добавлением новых надежных вариантов стоматологического страхования для вас.\n\nПодробные обзоры планов Ameritas и NCD с использованием сети MetLife скоро появятся.\n\nА пока вы можете ознакомиться с этими планами по ссылкам ниже и связаться с нами, если вам нужна помощь в выборе подходящего плана.\n\nВы сможете изучить, выбрать и зарегистрироваться в планах по этим ссылкам.`,
             ameritasCta: "планы Ameritas",
             ncdLink: "планы NCD",
@@ -577,6 +588,36 @@ Available in: AL, CA, DC, DE, FL, GA, NV, PA, TX.`,
 
             source2Title: "✅ ИСТОЧНИК 2 Delta Dental планы — Morgan White / Benefits Association",
             source2Desc: "📍 Доступно ТОЛЬКО в: AL, CA, DC, DE, FL, GA, NV, PA, TX<br>🚫 Гражданство США или Green Card не требуется<br>✅ Оплата картой принимается",
+            source2BlockTitle: "ПЛАНЫ MORGAN WHITE",
+            source2BlockIntro: "Открыто для всех (гражданство США или Green Card не требуются). Доступны также vision-планы. Применяются ограничения по штатам.",
+            source2NoWaitTitle: "Delta Dental PPO No Wait",
+            source2PremierTitle: "Delta Dental PPO Plus Premier",
+            source2GetPlanNote: "Ссылка на регистрацию через Источник 2 (Morgan White): brokers.insuranceforeveryone.com",
+            source2AfterEnrollTitle: "📋 После регистрации — что ожидать (планы Morgan White)",
+            source2AfterEnrollCarrier: `Эти планы Delta Dental обслуживаются <strong>Delta Dental of Georgia</strong>. Планы Guardian обслуживаются <strong>Guardian</strong>. Независимо от вашего места проживания, штат спонсора плана — Джорджия. Это не влияет на покрытие или доступ к сети в вашем штате.`,
+            source2AfterEnrollSteps: [
+                "После завершения регистрации и оплаты вы получите пакет участника сразу или за несколько дней до выбранной даты начала действия.",
+                "В пакет входят Certificate of Coverage и ID-карты. Они приходят по email от <strong>noreply@morganwhite.com</strong>.",
+                "Невозвратный регистрационный сбор и первый ежемесячный платёж оплачиваются в момент регистрации. При оплате банковским счётом обработка может занять до 3 рабочих дней. Карта списывается сразу.",
+                "В выписке по счёту списание будет отображаться как: <strong>Insurance 8888593795</strong>."
+            ],
+            source2AfterEnrollBilling: `<strong>Ключевые контакты:</strong>
+<br>🔹 <strong>Биллинг и изменения плана:</strong> Morgan White Group, <strong>1-877-759-5726</strong>, либо личный кабинет <a href='https://my.mwadmin.com' target='_blank' rel='noopener noreferrer'>my.mwadmin.com</a>. Также можно написать на <a href='mailto:individualchanges@morganwhite.com'>individualchanges@morganwhite.com</a>.
+<br>🔹 <strong>Eligibility и benefits:</strong> Delta Dental, <strong>1-877-759-5726</strong>.`,
+            source2AfterEnrollNote: `<strong>Важно:</strong> Мы не можем обсуждать ваши конкретные бенефиты с клиниками от вашего имени. Используйте контакты выше — страховая компания и администратор помогут вам напрямую по вопросам покрытия, заявок и изменений плана.`,
+            plansKeyFacts: [
+                "✔ Нет требований по гражданству США или резидентству, SSN не нужен",
+                "📍 Доступные штаты: AL, CA, DC, DE, FL, GA, NV, PA, TX",
+                "⏱ Нет периода ожидания (покрытие начинается с первого дня месяца вступления)"
+            ],
+            noWaitDocsTitle: "Документы по плану No Wait",
+            noWaitSideBySidePdf: "📄 No Wait Plan — сравнение бок о бок (EN/RU)",
+            noWaitPpoLimitationEnPdf: "📄 No Wait Plan — ограничения PPO (EN)",
+            noWaitPpoLimitationRuPdf: "📄 No Wait Plan — ограничения PPO (RU)",
+            deltaDentalDocsTitle: "Документы Delta Dental",
+            deltaDentalFaqPdf: "📄 Delta Dental Morgan White FAQ (EN/RU)",
+            deltaDentalPpoLimitationsPdf: "📄 Delta Dental PPO Plus Premier — ограничения плана (EN/RU)",
+            deltaDentalFaqColorPdf: "📄 Delta Dental FAQ (EN/RU)",
 
             deltaPremierSubTitle: "⭐ $3,000 ГОДОВОЙ МАКС — PPO + PREMIER СЕТИ — БЕЗ ОЖИДАНИЯ НА MAJOR — ❌ БЕЗ ИМПЛАНТОВ",
             deltaPremierFeatures: [
@@ -617,54 +658,49 @@ Available in: AL, CA, DC, DE, FL, GA, NV, PA, TX.`,
             source3Title: "✅ ИСТОЧНИК 3 NCD планы (Guardian & MetLife)",
             source3Desc:
                 "Альтернативные ассоциированные варианты стоматологического покрытия. Доступность, цена и детали зависят от штата, возраста и ZIP-кода.",
-            guardianTitle: "🦷 Guardian Dental планы (50+)",
-            guardianDesc:
-                "Индивидуальные планы для клиентов <strong>50+</strong>.<br><strong>Недоступно в:</strong> AK, MA, MO, NM, NV, NJ, VA, WY<br>⚠️ Missing tooth clause применяется<br>❗ Семейные планы не доступны",
-            guardianAchieverTitle: "⭐ Guardian Select Achiever",
-            guardianAchieverHighlights: [
-                "Для клиентов 50+",
-                "Без периода ожидания на Major услуги",
-                "Импланты включены (пожизненный лимит $1,250; missing tooth clause применяется)",
-                "Можно использовать как основной или дополнительный план"
+            guardianBlockTitle: "Планы Guardian (возраст 50+)",
+            guardianBlockIntro: "Доступно во всех штатах, кроме: AK, MA, MD, NM, NV, NJ, VA, WY.",
+            guardianKeyFacts: [
+                "Открыто для клиентов в возрасте 50+",
+                "Не требуется гражданство США или Green Card",
+                "Нет периода ожидания на major-услуги",
+                "Действует missing tooth clause",
+                "Семейных планов нет (только индивидуальное оформление или пара)"
             ],
-            guardianAchieverLimits: [
-                "Годовой лимит: $1,750 на человека",
-                "Deductible: $50/чел/год (в некоторых штатах не применяется к профилактике)"
+            guardianAchieverPlanTitle: "Guardian Select Achiever",
+            guardianAchieverSubTitle: "$1,750 годовой максимум. Импланты включены. Без ожидания.",
+            guardianAchieverFeatures: [
+                { text: "Покрытие", sub: [
+                    "100% Профилактика — чистки, осмотры, рентген",
+                    "70% Базовые услуги — пломбы, удаления",
+                    "50% Major — коронки, хирургия, импланты"
+                ]},
+                "Импланты: включены",
+                "Пожизненный лимит на импланты: $1,250",
+                "Missing tooth clause: применяется",
+                "Стоимость зависит от штата",
+                "Deductible: $50",
+                "$35 регистрационный сбор (не возвращается)"
             ],
-            guardianAchieverCoverage: [
-                "✅ 100% Профилактика и диагностика",
-                "✅ 70% Базовые услуги",
-                "✅ 50% Major услуги"
+            juliaRecommendationGuardianAchiever: `PDF: <a href="/Guardian_Select_Achiever.pdf" target="_blank" rel="noopener noreferrer" class="plan-summary-link">Полное описание плана</a><br><br>Лучше всего подходит клиентам 50+, которым нужно широкое покрытие, включая импланты. Сильный вариант как дополнительный план для крупных процедур.`,
+            guardianCompletePlanTitle: "Guardian Select Complete",
+            guardianCompleteSubTitle: "$1,250 годовой максимум. Без ожидания. Импланты не покрываются.",
+            guardianCompleteFeatures: [
+                { text: "Покрытие", sub: [
+                    "100% Профилактика — чистки, осмотры, рентген",
+                    "70% Базовые услуги — пломбы, удаления",
+                    "40% Major — коронки, хирургия"
+                ]},
+                "Импланты: не включены",
+                "Период ожидания: отсутствует",
+                "Стоимость: примерно от $46/мес.",
+                "Deductible: $50",
+                "$35 регистрационный сбор (не возвращается)"
             ],
-            guardianAchieverPricing: [
-                "$62/мес — Индивидуально",
-                "$124/мес — Пара"
-            ],
-            guardianAchieverRecommendation:
-                "💙 Рекомендация Юлии<br>Лучший вариант Guardian для 50+, если вы ожидаете серьёзное лечение (включая импланты) или хотите максимально сильное покрытие в этой возрастной группе.",
-
-            guardianCompleteTitle: "⭐ Guardian Select Complete",
-            guardianCompleteHighlights: [
-                "Для клиентов 50+",
-                "Без периода ожидания на Major услуги",
-                "Отлично для профилактики с доступом к другим процедурам при необходимости",
-                "Подходит как основной или дополнительный план"
-            ],
-            guardianCompleteLimits: [
-                "Годовой лимит: $1,000",
-                "❌ Импланты не покрываются"
-            ],
-            guardianCompleteCoverage: [
-                "✅ 100% Профилактика",
-                "✅ 70% Базовые услуги",
-                "✅ 40% Major услуги"
-            ],
-            guardianCompletePricing: [
-                "$46.70/мес — Индивидуально",
-                "$93.40/мес — Пара"
-            ],
-            guardianCompleteRecommendation:
-                "💙 Рекомендация Юлии<br>Хороший бюджетный вариант, если вы в основном хотите профилактику и чистки, но хотите иметь покрытие на другие процедуры при необходимости.",
+            juliaRecommendationGuardianComplete: `PDF: <a href="/Guardian_FAQ.pdf" target="_blank" rel="noopener noreferrer" class="plan-summary-link">PDF плана</a><br><br>Лучше всего подходит как доступный по цене вариант для клиентов 50+, которым важно сильное профилактическое и базовое покрытие и 40% покрытия major-услуг. Импланты не включены.`,
+            guardianDocsTitle: "Документы Guardian",
+            guardianFaqPdf: "📄 Guardian FAQ",
+            guardianSelectAchieverPdf: "📄 Guardian Select Achiever",
 
             ncdMetlifeTitle: "🔹 MetLife (NCD планы)",
             ncdMetlifeDetails: [
@@ -680,6 +716,13 @@ Available in: AL, CA, DC, DE, FL, GA, NV, PA, TX.`,
             enrollmentSupportTitle: "📞 ПОДДЕРЖКА И РЕГИСТРАЦИЯ",
             enrollmentSupportContent:
                 "🔹 Источник 1 (EWA / Corenroll): <a href=\"https://go.juliabarinova.com/smile\" target=\"_blank\" rel=\"noopener noreferrer\">go.juliabarinova.com/smile</a><br>🔹 Источник 2 (Morgan White): <a href=\"https://brokers.insuranceforeveryone.com/?portal=4778189\" target=\"_blank\" rel=\"noopener noreferrer\">brokers.insuranceforeveryone.com</a><br>🔹 Источник 3 (NCD планы): используйте ссылку на план выше и управляйте планом через портал NCD<br>📞 Контакты поддержки, условия участия, а также информация по claims/billing указаны внутри каждой ссылки на план.",
+            supportRoutingTitle: "📞 ПОДДЕРЖКА, АДМИНИСТРИРОВАНИЕ И САМООБСЛУЖИВАНИЕ",
+            supportRoutingList: [
+                "EWA/Corenroll: регистрация, администрирование плана и вопросы по аккаунту проходят через платформу EWA/Corenroll.",
+                "Morgan White: вопросы по биллингу и изменениям eligibility решаются через Morgan White; обработка claims и benefits идёт через страховую компанию.",
+                "NCD: администрирование плана и поддержка идут через NCD и портал участника."
+            ],
+            selfServiceNote: "Эта страница организована для самостоятельного оформления. Пожалуйста, переходите по ссылке соответствующего источника и по административным вопросам обращайтесь напрямую в ту же организацию.",
 
             finalNote:
                 "💙 Финальная заметка<br>Эта страница создана, чтобы вы могли сравнить варианты и зарегистрироваться самостоятельно, с минимальным участием брокера.<br>👉 Пожалуйста, внимательно изучите условия и выберите вариант, который подходит вам лучше всего.<br>— Юлия Баринова",
