@@ -81,8 +81,8 @@ export const translations = {
     //   "📆 Monthly · Quarterly · Annual billing"
     ],
     guardianDocsTitle: "Guardian Documents",
-    guardianFaqPdf: "📄 Guardian FAQ ",
-    guardianSelectAchieverPdf: "📄 Guardian Select Achiever",
+    guardianAchiever2Pdf: "📄 Guardian Achiever 2.0 Flyer",
+    guardianCore2Pdf: "📄 Guardian Core 2.0 Flyer",
     noWaitDocsTitle: "No Wait Plan Documents",
     noWaitSideBySidePdf: "📄 No Wait Plan — Side by Side (EN/RU)",
     noWaitPpoLimitationEnPdf: "📄 No Wait Plan — PPO Limitations (EN)",
@@ -228,49 +228,53 @@ Available in: AL, CA, DC, DE, FL, GA, NV, PA, TX.`,
 
     // Guardian Dental Plans (50+) — Morgan White Benefits Association
     guardianBlockTitle: "Guardian Plans (Age 50+)",
-    guardianBlockIntro: "Available in all states except: AK, MA, MD, NM, NV, NJ, VA, WY.",
+    guardianBlockIntro: "Available in all states except: AK, MA, MT, NM, NV, SD, VA, WY.",
     guardianKeyFacts: [
-        "Open to clients age 50+",
+        "Open to primary insureds age 50+",
         "No U.S. citizenship or Green Card requirement",
-        "No waiting period on major services",
-        "Missing tooth clause applies",
+        "PPO network with out-of-network benefits (benefits vary by state)",
+        "No waiting period for preventive, basic, or major services",
+        "Missing tooth provision applies to implants and dental prostheses",
         "No family plans (individual and couple enrollment only)"
     ],
 
-    // 🥇 Guardian Select Achiever — With Implant Coverage
-    guardianAchieverPlanTitle: "Guardian Select Achiever",
-    guardianAchieverSubTitle: "$1,750 annual maximum. Implants included. No waiting.",
+    // Guardian Achiever 2.0
+    guardianAchieverPlanTitle: "Guardian Achiever 2.0",
+    guardianAchieverSubTitle: "$2,500 maximum per 12-month period. $1,250 lifetime implant maximum. No waiting period.",
     guardianAchieverFeatures: [
         { text: "Coverage", sub: [
-            "100% Preventive - cleanings, exams, X-rays",
-            "70% Basic - fillings, extractions",
-            "50% Major - crowns, oral surgery, implants"
+            "Preventive/diagnostic: 100% in network and out of network",
+            "Basic restorative: 80% in network; 70%-80% out of network, depending on state",
+            "Major services: 50% in network; 40%-50% out of network, depending on state"
         ]},
-        "Implants: included",
-        "$1,250 lifetime implant cap",
-        "Missing tooth clause: applies",
-        "Cost varies by state",
-        "$50 deductible",
-        "$35 enrollment fee (non-refundable)"
-    ],
-    juliaRecommendationGuardianAchiever: `PDF: <a href="/Guardian_Select_Achiever.pdf" target="_blank" rel="noopener noreferrer" class="plan-summary-link">Full Plan Description</a><br><br>Best for clients 50+ seeking broad coverage including implants. Strong option as a secondary plan for major procedures.`,
-
-    // 🥈 Guardian Select Complete — No Implant Coverage
-    guardianCompletePlanTitle: "Guardian Select Complete",
-    guardianCompleteSubTitle: "$1,250 annual maximum. No waiting. No implant coverage.",
-    guardianCompleteFeatures: [
-        { text: "Coverage", sub: [
-            "100% Preventive - cleanings, exams, X-rays",
-            "70% Basic - fillings, extractions",
-            "40% Major - crowns, oral surgery"
-        ]},
-        "Implants: not included",
+        "Implants: $1,250 lifetime maximum",
+        "Missing tooth provision applies",
+        "PPO network with out-of-network benefits (benefits vary by state)",
         "Waiting period: none",
-        "Cost: from about $46/month",
-        "$50 deductible",
+        "Cost varies by state",
+        "$50 deductible (waived for in-network preventive services)",
         "$35 enrollment fee (non-refundable)"
     ],
-    juliaRecommendationGuardianComplete: `PDF: <a href="/Guardian_FAQ.pdf" target="_blank" rel="noopener noreferrer" class="plan-summary-link">Plan PDF</a><br><br>Best for affordable overall coverage for age 50+ with strong preventive and basic benefits, and 40% major coverage. Does not include implant coverage.`,
+    juliaRecommendationGuardianAchiever: `PDF: <a href="/Guardian_Achiever_2.0_Flyer.pdf" target="_blank" rel="noopener noreferrer" class="plan-summary-link">Full Plan Description</a><br><br>Achiever 2.0 offers the largest coverage of the three Guardian Select plans. Best for clients 50+ seeking the strongest Guardian coverage with implant benefits.`,
+
+    // Guardian Core 2.0
+    guardianCorePlanTitle: "Guardian Core 2.0",
+    guardianCoreSubTitle: "$1,250 maximum per 12-month period. $1,000 lifetime implant maximum. Missing tooth provision applies. No waiting period.",
+    guardianCoreFeatures: [
+        { text: "Coverage", sub: [
+            "Preventive/diagnostic: 100% in network and out of network",
+            "Basic restorative: 50% in network; 40%-50% out of network, depending on state",
+            "Major services: 50% in network; 30%-50% out of network, depending on state"
+        ]},
+        "Implants: $1,000 lifetime maximum",
+        "Missing tooth provision applies",
+        "PPO network with out-of-network benefits (benefits vary by state)",
+        "Waiting period: none",
+        "Cost varies by state",
+        "$50 deductible (waived for in-network preventive services)",
+        "$35 enrollment fee (non-refundable)"
+    ],
+    juliaRecommendationGuardianCore: `PDF: <a href="/Guardian_Core_2.0_Flyer.pdf" target="_blank" rel="noopener noreferrer" class="plan-summary-link">Full Plan Description</a><br><br>Core 2.0 provides preventive, basic, major, and implant benefits with lower overall limits than Achiever 2.0. Out-of-network benefits vary by state.`,
 
 
     // NCD
@@ -299,7 +303,7 @@ Available in: AL, CA, DC, DE, FL, GA, NV, PA, TX.`,
         "<strong>MetLife PPO Platinum </strong> — 12-month wait on major services (crowns/implants/root canals); requires U.S. citizenship or permanent residency; not available in listed states.",
         "<strong>Delta Dental PPO NO WAIT </strong> — major services covered from day one (including implants); available only in AL, CA, DC, DE, FL, GA, NV, PA, TX; missing tooth clause (except CA).",
         "<strong>Delta Dental PPO + Premier </strong> — higher annual max (up to $3,000), no implants; available only in AL, CA, DC, DE, FL, GA, NV, PA, TX; missing tooth clause applies.",
-        "<strong>Guardian (ages 50+)</strong> — individual plans for 50+; state availability varies; Achiever includes implants (lifetime max applies).",
+        "<strong>Guardian Achiever 2.0 / Core 2.0 (ages 50+)</strong> — PPO network with out-of-network benefits; Achiever offers the largest coverage; both plans include implants with separate lifetime maximums; benefits vary by state.",
         "👉 Before enrolling, review the plan with your dentist or use the plan’s provider search link to confirm an in-network provider."
     ],
 
@@ -657,48 +661,52 @@ Available in: AL, CA, DC, DE, FL, GA, NV, PA, TX.`,
             source3Desc:
                 "Альтернативные ассоциированные варианты стоматологического покрытия. Доступность, цена и детали зависят от штата, возраста и ZIP-кода.",
             guardianBlockTitle: "Планы Guardian (возраст 50+)",
-            guardianBlockIntro: "Доступно во всех штатах, кроме: AK, MA, MD, NM, NV, NJ, VA, WY.",
+            guardianBlockIntro: "Доступно во всех штатах, кроме: AK, MA, MT, NM, NV, SD, VA, WY.",
             guardianKeyFacts: [
-                "Открыто для клиентов в возрасте 50+",
+                "Доступно для основных застрахованных в возрасте 50+",
                 "Не требуется гражданство США или Green Card",
-                "Нет периода ожидания на major-услуги",
-                "Действует missing tooth clause",
+                "PPO-сеть с покрытием вне сети (benefits зависят от штата)",
+                "Нет периода ожидания на профилактические, базовые и major-услуги",
+                "Missing tooth provision применяется к имплантам и зубным протезам",
                 "Семейных планов нет (только индивидуальное оформление или пара)"
             ],
-            guardianAchieverPlanTitle: "Guardian Select Achiever",
-            guardianAchieverSubTitle: "$1,750 годовой максимум. Импланты включены. Без ожидания.",
+            guardianAchieverPlanTitle: "Guardian Achiever 2.0",
+            guardianAchieverSubTitle: "$2,500 максимум за 12-месячный период. Пожизненный максимум на импланты $1,250. Без периода ожидания.",
             guardianAchieverFeatures: [
                 { text: "Покрытие", sub: [
-                    "100% Профилактика — чистки, осмотры, рентген",
-                    "70% Базовые услуги — пломбы, удаления",
-                    "50% Major — коронки, хирургия, импланты"
+                    "Профилактика и диагностика: 100% в сети и вне сети",
+                    "Базовые услуги: 80% в сети; 70%-80% вне сети в зависимости от штата",
+                    "Major-услуги: 50% в сети; 40%-50% вне сети в зависимости от штата"
                 ]},
-                "Импланты: включены",
-                "Пожизненный лимит на импланты: $1,250",
-                "Missing tooth clause: применяется",
-                "Стоимость зависит от штата",
-                "Deductible: $50",
-                "$35 регистрационный сбор (не возвращается)"
-            ],
-            juliaRecommendationGuardianAchiever: `PDF: <a href="/Guardian_Select_Achiever.pdf" target="_blank" rel="noopener noreferrer" class="plan-summary-link">Полное описание плана</a><br><br>Лучше всего подходит клиентам 50+, которым нужно широкое покрытие, включая импланты. Сильный вариант как дополнительный план для крупных процедур.`,
-            guardianCompletePlanTitle: "Guardian Select Complete",
-            guardianCompleteSubTitle: "$1,250 годовой максимум. Без ожидания. Импланты не покрываются.",
-            guardianCompleteFeatures: [
-                { text: "Покрытие", sub: [
-                    "100% Профилактика — чистки, осмотры, рентген",
-                    "70% Базовые услуги — пломбы, удаления",
-                    "40% Major — коронки, хирургия"
-                ]},
-                "Импланты: не включены",
+                "Импланты: пожизненный максимум $1,250",
+                "Missing tooth provision применяется",
+                "PPO-сеть с покрытием вне сети (benefits зависят от штата)",
                 "Период ожидания: отсутствует",
-                "Стоимость: примерно от $46/мес.",
-                "Deductible: $50",
+                "Стоимость зависит от штата",
+                "Deductible: $50 (не применяется к профилактическим услугам в сети)",
                 "$35 регистрационный сбор (не возвращается)"
             ],
-            juliaRecommendationGuardianComplete: `PDF: <a href="/Guardian_FAQ.pdf" target="_blank" rel="noopener noreferrer" class="plan-summary-link">PDF плана</a><br><br>Лучше всего подходит как доступный по цене вариант для клиентов 50+, которым важно сильное профилактическое и базовое покрытие и 40% покрытия major-услуг. Импланты не включены.`,
+            juliaRecommendationGuardianAchiever: `PDF: <a href="/Guardian_Achiever_2.0_Flyer.pdf" target="_blank" rel="noopener noreferrer" class="plan-summary-link">Полное описание плана</a><br><br>Achiever 2.0 предлагает самое большое покрытие из трёх планов Guardian Select. Лучше всего подходит клиентам 50+, которым нужно наиболее сильное покрытие Guardian с benefits на импланты.`,
+            guardianCorePlanTitle: "Guardian Core 2.0",
+            guardianCoreSubTitle: "$1,250 максимум за 12-месячный период. Пожизненный максимум на импланты $1,000. Действует missing tooth provision. Без периода ожидания.",
+            guardianCoreFeatures: [
+                { text: "Покрытие", sub: [
+                    "Профилактика и диагностика: 100% в сети и вне сети",
+                    "Базовые услуги: 50% в сети; 40%-50% вне сети в зависимости от штата",
+                    "Major-услуги: 50% в сети; 30%-50% вне сети в зависимости от штата"
+                ]},
+                "Импланты: пожизненный максимум $1,000",
+                "Missing tooth provision применяется",
+                "PPO-сеть с покрытием вне сети (benefits зависят от штата)",
+                "Период ожидания: отсутствует",
+                "Стоимость зависит от штата",
+                "Deductible: $50 (не применяется к профилактическим услугам в сети)",
+                "$35 регистрационный сбор (не возвращается)"
+            ],
+            juliaRecommendationGuardianCore: `PDF: <a href="/Guardian_Core_2.0_Flyer.pdf" target="_blank" rel="noopener noreferrer" class="plan-summary-link">Полное описание плана</a><br><br>Core 2.0 включает профилактические, базовые, major-услуги и импланты, но имеет более низкие лимиты, чем Achiever 2.0. Покрытие вне сети зависит от штата.`,
             guardianDocsTitle: "Документы Guardian",
-            guardianFaqPdf: "📄 Guardian FAQ",
-            guardianSelectAchieverPdf: "📄 Guardian Select Achiever",
+            guardianAchiever2Pdf: "📄 Guardian Achiever 2.0 - флаер",
+            guardianCore2Pdf: "📄 Guardian Core 2.0 - флаер",
 
             ncdMetlifeTitle: "🔹 MetLife (NCD планы)",
             ncdMetlifeDetails: [
@@ -733,7 +741,7 @@ Available in: AL, CA, DC, DE, FL, GA, NV, PA, TX.`,
                 "<strong>MetLife PPO Platinum (Источник 1)</strong> — 12 месяцев ожидания на Major; требуется гражданство США или Green Card; недоступен в указанных штатах.",
                 "<strong>Delta Dental PPO NO WAIT (Источник 2)</strong> — Major услуги с первого дня (включая импланты); только AL, CA, DC, DE, FL, GA, NV, PA, TX; missing tooth clause (кроме CA).",
                 "<strong>Delta Dental PPO + Premier (Источник 2)</strong> — более высокий годовой максимум (до $3,000), без имплантов; только AL, CA, DC, DE, FL, GA, NV, PA, TX; missing tooth clause применяется.",
-                "<strong>Guardian (Источник 3, 50+)</strong> — индивидуальные планы 50+; доступность зависит от штата; Achiever включает импланты (есть пожизненный лимит).",
+                "<strong>Guardian Achiever 2.0 / Core 2.0 (Источник 3, 50+)</strong> — PPO-сеть с покрытием вне сети; Achiever предлагает самое большое покрытие; оба плана включают импланты с отдельными пожизненными максимумами; benefits зависят от штата.",
                 "👉 Перед регистрацией обсудите план со стоматологом или воспользуйтесь поиском провайдеров, чтобы подтвердить врача в сети."
             ],
             
