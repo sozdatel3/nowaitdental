@@ -1501,9 +1501,9 @@ uz: {
   baner3: "$55/oydan boshlab",
   go1: "👇 KO'RIB CHIQISH VA RO'YXATDAN O'TISH:",
   go2: "👆 O'TING",
-  advisorName: "Yuliya Barinova, MBA – litsenziyalangan sug'urta maslahatchi va broker tomonidan taklif qilinadi",
+  advisorName: "Julia Barinova, MBA – litsenziyalangan sug'urta maslahatchi va broker tomonidan taklif qilinadi",
   meetJulia: "👋 Keling, tanishaylik",
-  juliaIntro: "Salom, men Yuliya Barinova, Nyu-York shahrida joylashgan mustaqil sug'urta maslahatchi va brokerman, moliyaviy xizmatlarda 20 yildan ortiq tajribam bor - investitsiya maslahatidan va xej-fondlar marketingidan shaxsiy sug'urta rejalashtirish gacha.",
+  juliaIntro: "Salom, men Julia Barinova, Nyu-York shahrida joylashgan mustaqil sug'urta maslahatchi va brokerman, moliyaviy xizmatlarda 20 yildan ortiq tajribam bor - investitsiya maslahatidan va xej-fondlar marketingidan shaxsiy sug'urta rejalashtirish gacha.",
   juliaPassion: "Men odamlarni o'zlari, oilalari va bizneslarini halokatli moliyaviy xavflardan himoya qilishda yordam berishdan iborat bo'lgan ishqibozman - bu jiddiy kasallik, daromad yo'qolishi, uzoq muddatli g'amxo'rlik ehtiyojlari yoki yaqin kishini yo'qotishdan kelib chiqqan bo'lsin - ularni ta'lim berish va aqlli, moslashtirilgan sug'urta strategiyalarini qurish orqali. Men shuningdek, muhim bo'shliqlarni to'ldiruvchi va tish davolash kabi muhim xizmatlar uchun haqiqiy pulni tejovchi innovatsion yechimlarni ochishni yaxshi ko'raman.",
   clientStats: `Yaqinda bizning ishonchli assotsiatsiya hamkorimiz Elevate Wellness reja tuzilmasini yangiladi: MetLife endi <strong>Major xizmatlar uchun 12 oylik kutish davrini</strong> qo‘llaydi va ro‘yxatdan o‘tish uchun <strong>AQSh fuqaroligi yoki doimiy rezidentlik (Green Card)</strong> talab qilinadi. (Delta Dental PPO o‘zgarmagan.)<br><br>
 Ushbu o‘zgarishlar sabab, afsuski, hamma uchun bir xil mos keladigan yagona yechim endi yo‘q.<br><br>
@@ -1588,7 +1588,7 @@ Bizning asosiy talabimiz — mavjud bo‘lsa, major xizmatlarga darhol yoki deya
       "$123 – Nyu-York, Chikago, Mayami",
       "$133 – San-Fransisko"
   ],
-  juliaRecommendationMetlife: 'YULIYANING TAVSIYASI: Asosiy tish ishi kerak bo\'lganlarga (implantlar, tojlar, keng davolash) yoki provayderini faqat MetLife bilan tarmoqda bo\'lganlarga eng yaxshisi (sizga ko\'proq pul tejaydi). Iltimos, e\'tibor bering - 12 oylik kutish davri. <a href="/MetLife Dental Plan Summary.pdf" target="_blank" rel="noopener noreferrer" class="plan-summary-link">To\'liq reja tavsifi 📄</a>',
+  juliaRecommendationMetlife: 'JULIANING TAVSIYASI: Asosiy tish ishi kerak bo\'lganlarga (implantlar, tojlar, keng davolash) yoki provayderini faqat MetLife bilan tarmoqda bo\'lganlarga eng yaxshisi (sizga ko\'proq pul tejaydi). Iltimos, e\'tibor bering - 12 oylik kutish davri. <a href="/MetLife Dental Plan Summary.pdf" target="_blank" rel="noopener noreferrer" class="plan-summary-link">To\'liq reja tavsifi 📄</a>',
   
   // Delta Dental section
   deltaTitle: "🦷 Delta Dental PPO 1500",
@@ -1610,7 +1610,7 @@ Bizning asosiy talabimiz — mavjud bo‘lsa, major xizmatlarga darhol yoki deya
       "$108.25 – Kattalar + Turmush o'rtog'i",
       "$161.25 – To'liq oila"
   ],
-  juliaRecommendationDelta: 'YULIYANING TAVSIYASI: Ishonchli, byudjetga mos reja. Oilalar uchun ajoyib. Tishlaringizni minimal oylik xarajat bilan sog\'lom va toza saqlaydi. <a href="/Delta-Dental-Plan Description.pdf" target="_blank" rel="noopener noreferrer" class="plan-summary-link">To\'liq reja tavsifi 📄</a>',
+  juliaRecommendationDelta: 'JULIANING TAVSIYASI: Ishonchli, byudjetga mos reja. Oilalar uchun ajoyib. Tishlaringizni minimal oylik xarajat bilan sog\'lom va toza saqlaydi. <a href="/Delta-Dental-Plan Description.pdf" target="_blank" rel="noopener noreferrer" class="plan-summary-link">To\'liq reja tavsifi 📄</a>',
   
   // How coverage works
   coverageWorksTitle: "💡 Qoplash foizlari qanday ishlaydi",
@@ -1702,11 +1702,11 @@ Bizning asosiy talabimiz — mavjud bo‘lsa, major xizmatlarga darhol yoki deya
   educationalResourcesBookGromov_ru: "Ta'lim kitobi SIZ LOYIQ BO'LGAN TABASSUM (ru) doktor Konstantin Gromovdan(ru)",
   
   // Contact
-  contactTitle: "📇 Yuliya Barinova, MBA bilan bog'laning",
+  contactTitle: "📇 Julia Barinova, MBA bilan bog'laning",
   contactIntro: "📢 Men sizni men bilan bog'lanishga va sizning sug'urta rejalashtirish masalalaringizni muhokama qilish uchun bepul maslahat belgilashga taklif qilaman - shu jumladan o'zingiz va yaqinlaringizni tirik imtiyozlar bilan hayot sug'urtasi, nogironlik qoplovi, uzoq muddatli g'amxo'rlik va boshqa sizda bo'lishi mumkin bo'lgan savollar bilan himoya qilish. AQShda deyarli 30 yil yashab va ishlayotganim sababli, yangi muhojirlarni qimmatli ma'lumot va resurslar bilan qo'llab-quvvatlashdan xursandman, bu ularning yaxshiroq hayot qurishlariga yordam beradi.",
   thankYou: "Qiziqishingiz va biznesingiz uchun rahmat.",
   contactInfo: {
-      name: "Yuliya Barinova, MBA",
+      name: "Julia Barinova, MBA",
       title: "Litsenziyalangan sug'urta brokeri",
       license: "NYS sug'urta litsenziyasi LA-937924",
       phone: "347-922-8037",
@@ -1771,7 +1771,7 @@ Bizning asosiy talabimiz — mavjud bo‘lsa, major xizmatlarga darhol yoki deya
           <p><strong>Ma'lumotlar xavfsizligi:</strong> Biz ma'lumotlaringizni himoya qilish uchun sanoat standartlaridagi chora-tadbirlarni amalga oshiramiz. Biroq, hech bir internet orqali uzatish 100% xavfsiz emas.</p>
           <p><strong>Cookie-lar:</strong> Bizning veb-saytimiz silliqroq ko'rish tajribasi va asosiy tahlil uchun cookie-lardan foydalanishi mumkin.</p>
           <p><strong>Sizning roziliringiz:</strong> Saytimizdan foydalanish orqali siz ushbu maxfiylik haqidagi xabarga rozi bo'lasiz.</p>
-          <p><strong>Biz bilan bog'laning:</strong> Agar bu siyosat haqida savollaringiz bo'lsa, iltimos Yuliya Barinova bilan bog'laning <a href="tel:+13479228037">📞 347-922-8037</a> yoki <a href="mailto:julia@juliabarinova.com"> 📧 julia@juliabarinova.com.</a></p>
+          <p><strong>Biz bilan bog'laning:</strong> Agar bu siyosat haqida savollaringiz bo'lsa, iltimos Julia Barinova bilan bog'laning <a href="tel:+13479228037">📞 347-922-8037</a> yoki <a href="mailto:julia@juliabarinova.com"> 📧 julia@juliabarinova.com.</a></p>
       </div>`,
   
   partnersTitle: "Bizning ishonchli strategik tish davolash hamkorlari",
