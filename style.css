@@ -1842,6 +1842,13 @@ strong a:hover {
     color: #0178d3;
 }
 
+.partner-details {
+    margin-top: 4px;
+    color: #425466;
+    font-size: 15px;
+    line-height: 1.45;
+}
+
 @media (max-width: 768px) {
     .partners-title {
         font-size: 22px;

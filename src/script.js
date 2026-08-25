@@ -274,10 +274,20 @@ function initPartnersSection() {
     list.classList.toggle('active', index === 0);
 
     const partnersHtml = partnersData[state]
-      .map(
-        (partner) =>
-          `<div class="partner-item"><a href="${partner.link}" target="_blank" rel="noopener noreferrer">${partner.name} (${partner.city})</a></div>`
-      )
+      .map((partner) => {
+        const details = [
+          partner.address,
+          partner.phone ? `Phone: ${partner.phone}` : '',
+          partner.fax ? `Fax: ${partner.fax}` : ''
+        ]
+          .filter(Boolean)
+          .join(' | ');
+
+        return `<div class="partner-item">
+          <a href="${partner.link}" target="_blank" rel="noopener noreferrer">${partner.name} (${partner.city})</a>
+          ${details ? `<div class="partner-details">${details}</div>` : ''}
+        </div>`;
+      })
       .join('');
 
     list.innerHTML = partnersHtml;

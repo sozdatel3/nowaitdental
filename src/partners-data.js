@@ -53,6 +53,21 @@ export const partnersData = {
     }
   ],
   Pennsylvania: [
+    {
+      name: 'Absolute Smile "Not Your Typical Dentists..." - Street Road Office',
+      city: 'Southampton',
+      address: '1045 Street Road, Southampton, PA 18966',
+      phone: '215-355-4007',
+      fax: '215-355-4008',
+      link: 'https://www.myabsolutesmile.com/'
+    },
+    {
+      name: 'Absolute Smile "Not Your Typical Dentists..." - Harbison Office',
+      city: 'Philadelphia',
+      address: '6737 Harbison Ave, Philadelphia, PA 19149',
+      phone: '215-331-7585',
+      link: 'https://www.myabsolutesmile.com/'
+    },
     { name: 'Dental Beauty', city: 'Philadelphia', link: 'https://share.google/v3iJsA63ipHEAvqKa' },
     { name: 'Dr Maxim Babiner, Babiner Dental', city: 'Philadelphia', link: 'https://share.google/Qx537wYznsP6Lfgbr' },
     { name: 'Boris Babiner, DDS. Implantology', city: 'Philadelphia', link: 'https://share.google/KLL3G0Ic3PqLHBzT6' },
@@ -93,4 +108,3 @@ export const partnersData = {
     { name: 'Dr. Mikhail Shulkin, Moody Street Dental on Elm', city: 'Waltham', link: 'https://moodystreetdental.com/' }
   ]
 };
-
