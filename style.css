@@ -2374,6 +2374,42 @@ h2[data-translate="deltaTitle"]::before {
     font-size: 18px;
 }
 
+.delta-id-card-warning {
+    max-width: none;
+    margin: 18px 0 22px;
+    border: 2px solid #e0a800;
+    border-left: 6px solid #d32f2f;
+    background: #fff3bf;
+    color: #3d3200;
+    text-align: left;
+}
+
+.delta-id-card-warning__title {
+    display: block;
+    margin-bottom: 14px;
+    text-align: center;
+}
+
+.delta-id-card-warning p {
+    margin: 12px 0;
+}
+
+.delta-id-card-warning__choices {
+    margin: 10px 0 14px;
+    padding-left: 0;
+    list-style: none;
+}
+
+.delta-id-card-warning__choices li {
+    margin: 8px 0;
+}
+
+.delta-id-card-warning__or {
+    padding-left: 18px;
+    color: #d32f2f;
+    font-weight: 800;
+}
+
 /* Sticky section navigation */
 html {
     scroll-behavior: smooth;

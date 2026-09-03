@@ -42,6 +42,21 @@ export const translations = {
 
     // After Enrollment — Source 1 (CorEnroll / EWA)
     source1AfterEnrollTitle: "📋 After Enrollment — What to Expect (CorEnroll / EWA Plans)",
+    deltaIdCardWarning: `
+      <strong class="attention-red delta-id-card-warning__title">⚠️ PLEASE READ — VERY IMPORTANT ⚠️</strong>
+      <p><strong>DO NOT SCHEDULE A DENTIST APPOINTMENT UNTIL YOU HAVE YOUR DELTA DENTAL ID CARD.</strong></p>
+      <p>Your coverage starts on the 1st of the month, but your information will NOT appear in Delta Dental's system immediately.</p>
+      <p><strong>PLEASE WAIT UNTIL APPROXIMATELY THE 5TH–10TH OF THE MONTH.</strong></p>
+      <p>Before going to the dentist, you must either:</p>
+      <ul class="delta-id-card-warning__choices">
+        <li>✓ Receive your ID card in the mail</li>
+        <li class="delta-id-card-warning__or">OR</li>
+        <li>✓ Create an account at DeltaDentalCT.com and access your ID card online</li>
+      </ul>
+      <p><strong>NO CARD = PLEASE WAIT.</strong></p>
+      <p>If you go to the dentist before your information appears in Delta's system, the dentist may require you to <strong>PAY THE FULL BILL YOURSELF</strong> and request reimbursement later.</p>
+      <p>Please do not call or email asking why you are not yet showing in Delta's system before the 10th of the month. This processing time is normal.</p>
+    `,
     source1AfterEnrollCarrier: `These plans are serviced by <strong>Delta Dental of Connecticut</strong> and <strong>MetLife</strong>. Regardless of where you live, the plan sponsor state is Connecticut — this does not affect your coverage or network access nationwide.`,
     source1AfterEnrollSteps: [
         "Once enrolled through CorEnroll, you can create your personal account at <a href='https://corenroll.com' target='_blank' rel='noopener noreferrer'>corenroll.com</a> or in the CorEnroll mobile app to: view plan documents, explore additional benefits, and contact your representative.",
