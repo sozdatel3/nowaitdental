@@ -2,6 +2,8 @@ export const DEFAULT_LANGUAGE = 'en';
 
 export const translations = {
   en: {
+    providerDirectoriesTitle: "Find an in-network dentist",
+    providerDirectoriesNote: "Search the carrier directory for your exact plan and confirm participation with the dental office before booking. A dentist may accept a carrier but not every plan or network.",
     // Hero section
     heroTitle: "🦷 No-Waiting Dental Insurance",
     baner1: "IMPLANTS, CROWNS, CANALS COVERED day 1",
@@ -475,6 +477,8 @@ Available in: AL, CA, DC, DE, FL, GA, NV, PA, TX.`,
 
     },
         ru: {
+            providerDirectoriesTitle: "Найти стоматолога в сети плана",
+            providerDirectoriesNote: "Найдите врача в каталоге страховой компании для вашего конкретного плана и подтвердите участие в клинике до записи. Врач может принимать страховщика, но не каждый его план или сеть.",
             
             baner1: "ИМПЛАНТЫ, КОРОНКИ, КАНАЛЫ ПОКРЫТЫ с 1 дня",
             baner2: "БЕЗ ПЕРИОДА ОЖИДАНИЯ. ОТСУТСТВУЮЩИЙ ЗУБ-ОК",
@@ -926,6 +930,8 @@ Available in: AL, CA, DC, DE, FL, GA, NV, PA, TX.`,
             saveContact: "Сохранить контакт"
         },
         uk: {
+            providerDirectoriesTitle: "Знайти стоматолога в мережі плану",
+            providerDirectoriesNote: "Знайдіть лікаря в каталозі страхової компанії для вашого плану й підтвердьте участь у клініці до запису. Лікар може приймати страховика, але не кожен його план або мережу.",
             // Hero section
             heroTitle: "🦷 ЩАСЛИВА ПОСМІШКА СЬОГОДНІ: Приєднуйтесь до революції у стоматологічному страхуванні - без очікування, без дурниць, лише захист.",
             baner1: "ІМПЛАНТИ, КОРОНКИ, КАНАЛИ ПОКРИТІ з 1 дня",
@@ -1217,6 +1223,8 @@ Available in: AL, CA, DC, DE, FL, GA, NV, PA, TX.`,
 
 
           ka: {
+            providerDirectoriesTitle: "იპოვეთ თქვენი გეგმის ქსელის სტომატოლოგი",
+            providerDirectoriesNote: "მოძებნეთ სტომატოლოგი სადაზღვევო კომპანიის კატალოგში თქვენი კონკრეტული გეგმისთვის და ვიზიტამდე კლინიკასთან გადაამოწმეთ ქსელში მონაწილეობა.",
   
   heroTitle: "🦷 ბედნიერი ღიმილი დღეს: შეუერთდი სტომატოლოგიური დაზღვევის რევოლუციას - ლოდინის გარეშე, ზედმეტი სირთულეების გარეშე, მხოლოდ დაცვა.",
   baner1: "იმპლანტები, კრონები, არხები დაფარულია 1 დღიდან",
@@ -1509,6 +1517,8 @@ saveContact: "კონტაქტის შენახვა"
 },
 
 uz: {
+  providerDirectoriesTitle: "Rejangiz tarmog'idagi stomatologni toping",
+  providerDirectoriesNote: "Sug'urta kompaniyasi katalogidan aynan o'z rejangiz bo'yicha stomatologni qidiring va qabulga yozilishdan oldin klinikadan tarmoqdagi ishtirokini tasdiqlang.",
   // Hero section
   heroTitle: "🦷 BUGUN BAXTLI TABASSUM: Tish davolash sug'urtasida inqilobga qo'shiling - kutish yo'q, keraksiz narsalar yo'q, faqat himoya.",
   baner1: "IMPLANTLAR, TOJLAR, KANALLAR 1-kundan boshlab qoplangan",
@@ -1798,6 +1808,8 @@ calendarLabel: "Qo‘ng‘iroqni bron qilish:",
 saveContact: "Kontaktni saqlash"
 },
 es: {
+  providerDirectoriesTitle: "Encuentre un dentista de la red",
+  providerDirectoriesNote: "Busque en el directorio de la aseguradora para su plan específico y confirme la participación con el consultorio antes de reservar. Un dentista puede aceptar la aseguradora, pero no todos sus planes o redes.",
   // Hero section
   heroTitle: "🦷 SONRISA FELIZ HOY: Únete a la revolución en seguros dentales - sin esperas, sin complicaciones, solo protección.",
   baner1: "IMPLANTES, CORONAS, CANALES CUBIERTOS desde el día 1",
