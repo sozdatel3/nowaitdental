@@ -244,6 +244,24 @@ async function main() {
     await fs.writeFile(outPath, rendered, 'utf8');
   }
 
+  if (siteUrl) {
+    const urls = langs.map((lang) => new URL(pathForLanguage(lang), siteUrl).href);
+    const entries = urls.map((url) => `  <url><loc>${escapeHtml(url)}</loc></url>`);
+    const sitemap = [
+      '<?xml version="1.0" encoding="UTF-8"?>',
+      '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">',
+      ...entries,
+      '</urlset>',
+      '',
+    ].join('\n');
+    await fs.writeFile(path.join(DIST_DIR, 'sitemap.xml'), sitemap, 'utf8');
+    await fs.writeFile(
+      path.join(DIST_DIR, 'robots.txt'),
+      `User-agent: *\nAllow: /\nSitemap: ${new URL('/sitemap.xml', siteUrl).href}\n`,
+      'utf8'
+    );
+  }
+
   await copyCnameToDist();
 }
 

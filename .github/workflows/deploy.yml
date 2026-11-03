@@ -40,7 +40,6 @@ jobs:
       - name: Build
         run: npm run build
         env:
-          SITE_URL: https://dental.juliabarinova.com
           # Force rebuild with unique hash
           BUILD_TIME: ${{ github.sha }}
       - name: Verify dist output
@@ -49,7 +48,8 @@ jobs:
           test -f dist/images/hero.jpg
           test -f dist/images/main_photo_compressed_11.webp
           test -n "$(find dist/assets -maxdepth 1 -name 'index-*.js' -print -quit)" || ls -la dist/assets
-          grep -q 'https://dental.juliabarinova.com/' dist/index.html
+          grep -Fq '<link rel="canonical" href="https://nowaitdental.com/"' dist/index.html
+          grep -Fq '<loc>https://nowaitdental.com/</loc>' dist/sitemap.xml
           echo "dist verification passed"
       - name: Setup Pages
         uses: actions/configure-pages@v5
