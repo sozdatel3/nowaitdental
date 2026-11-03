@@ -50,7 +50,9 @@ export const partnersData = {
       name: 'Garry Shnayder, Oral Surgeon, Brooklyn, NY',
       city: 'New York City',
       link: 'https://www.pristineoralsurgery.com/meet-us/dr-garry-shnayder/'
-    }
+    },
+    { name: 'Oleg Kruglyansky, DDS — DOK Dental', city: 'Brooklyn', link: 'https://www.dokdental.com/' },
+    { name: 'Vera Pavlova, DDS', city: 'Brooklyn', link: 'https://share.google/n7PWo6HCvUzDARPrh' }
   ],
   Pennsylvania: [
     {
@@ -87,7 +89,7 @@ export const partnersData = {
   California: [
     { name: 'Kevin Kafayi, D.D.S.', city: 'San Francisco', link: 'https://share.google/LUCVoOBnyykzbKjIm' },
     { name: 'Alex Rabinovich, DDS, MD', city: 'San Francisco', link: 'https://share.google/DUJV6IjG7gWbE6iQr' },
-    { name: 'Nataly Vilderman, D.D.S.', city: 'San Francisco', link: 'https://share.google/qy2U2UOCFgQ8QnSqo' },
+    { name: 'Nataly Vilderman, D.D.S.', city: 'San Francisco', link: 'https://share.google/OUDzd0816VnUIlinr' },
     { name: 'Dr. Valentina Yasinsky', city: 'San Francisco', link: 'https://share.google/SVEi55QNBqT5JCQFU' },
     {
       name: 'San Francisco Reconstructive Periodontics - Greg Meyers, DDS, MSD',
@@ -95,7 +97,10 @@ export const partnersData = {
       link: 'https://share.google/UgB58zct5TaQ6Nld5'
     }
   ],
-  Florida: [{ name: 'Dr. Alexander Levin, DDS.', city: 'Palm Coast', link: 'https://share.google/SOq6Cyz0djjC6Hy1L' }],
+  Florida: [
+    { name: 'Dr. Alexander Levin, DDS.', city: 'Palm Coast', link: 'https://share.google/SOq6Cyz0djjC6Hy1L' },
+    { name: 'Dina Bobrova — Miami Veneers', city: 'Aventura', link: 'https://miamiveneers.com/about-us/' }
+  ],
   'New Jersey': [
     { name: 'Magic Dental Lawrenceville', city: 'Lawrenceville', link: 'https://share.google/z8spbjg2oenGxaPw1' },
     { name: 'Dr. Yuliya Khodak DMD', city: 'New Jersey', link: 'https://share.google/9Kqz6eXCGqSMQ3k07' }
